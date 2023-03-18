@@ -1,7 +1,12 @@
 #include "cmn_hdr.h" 
 
-int main()
+void print_default()
 {
 	printf("hello world\n");
-	return EXIT_SUCCESS;
+}
+
+int main(int argc, char *argv[])
+{
+	print_default();
+	return 0;
 }
