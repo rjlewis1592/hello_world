@@ -2,6 +2,9 @@
 
 int main(int argc, char *argv[])
 {
-	printf("hello world\n");
+	if (argc == 1) {
+		printf("hello world\n");
+	}
+
 	return EXIT_SUCCESS;
 }
