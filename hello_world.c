@@ -1,10 +1,7 @@
 #include "cmn_hdr.h" 
 
-int main(int argc, char *argv[])
+int main()
 {
-	if (argc == 1) {
-		printf("hello world\n");
-	}
-
+	printf("hello world\n");
 	return EXIT_SUCCESS;
 }
