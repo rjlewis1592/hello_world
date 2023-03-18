@@ -1,5 +1,10 @@
 #include "cmn_hdr.h" 
 
+void print_dog()
+{
+	printf("Bow !!\n");
+}
+
 void print_default()
 {
 	printf("hello world\n");
@@ -12,6 +17,11 @@ int main(int argc, char *argv[])
 		exit (EXIT_FAILURE);
 	}
 
-	print_default();
+	if (strcmp(argv[1], "dog") == 0) {
+		print_dog();
+	} else {
+		print_default();
+	}
+
 	return 0;
 }
