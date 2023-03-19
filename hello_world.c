@@ -30,5 +30,5 @@ int main(int argc, char *argv[])
 		print_default();
 	}
 
-	return 0;
+	return EXIT_SUCCESS;
 }
