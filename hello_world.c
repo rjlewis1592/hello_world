@@ -4,6 +4,10 @@ void print_tiger()
 {
 	printf("Grrr !!\n");
 }
+void print_sparrow()
+{
+	printf("Chirp !!\n");
+}
 
 void print_crow()
 {
@@ -43,6 +47,8 @@ int main(int argc, char *argv[])
 		print_crow();
 	} else if (strcmp(argv[1], "tiger") == 0) {
 		print_tiger();
+	} else if (strcmp(argv[1], "sparrow") == 0) {
+		print_sparrow();
 	} else {
 		print_default();
 	}
