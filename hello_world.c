@@ -1,5 +1,10 @@
 #include "cmn_hdr.h" 
 
+void print_tiger()
+{
+	printf("Grrr !!\n");
+}
+
 void print_crow()
 {
 	printf("Kaw !!\n");
@@ -36,6 +41,8 @@ int main(int argc, char *argv[])
 		print_dog();
 	} else if (strcmp(argv[1], "crow") == 0) {
 		print_crow();
+	} else if (strcmp(argv[1], "tiger") == 0) {
+		print_tiger();
 	} else {
 		print_default();
 	}
