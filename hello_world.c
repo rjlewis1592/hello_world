@@ -1,5 +1,10 @@
 #include "cmn_hdr.h" 
 
+void print_sparrow()
+{
+	printf("Chirp !!\n");
+}
+
 void print_crow()
 {
 	printf("Kaw !!\n");
@@ -36,6 +41,8 @@ int main(int argc, char *argv[])
 		print_dog();
 	} else if (strcmp(argv[1], "crow") == 0) {
 		print_crow();
+	} else if (strcmp(argv[1], "sparrow") == 0) {
+		print_sparrow();
 	} else {
 		print_default();
 	}
