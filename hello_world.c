@@ -17,6 +17,8 @@ void print_default()
 
 int main(int argc, char *argv[])
 {
+	printf("Hi !, have a ncie day\n");
+
 	if (argc != 2) {
 		fprintf(stderr, "Usage: <a.out> <animal_str>\n");
 		exit (EXIT_FAILURE);
